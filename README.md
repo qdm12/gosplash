@@ -2,13 +2,25 @@
 
 Library to show log lines at the start of a program
 
-![Last release](https://img.shields.io/github/release/qdm12/gosplash?label=Last%20release)
-![GitHub Release Date](https://img.shields.io/github/release-date/qdm12/gosplash?label=Last%20release%20date)
+[![Build status](https://github.com/qdm12/gosplash/actions/workflows/ci.yml/badge.svg)](https://github.com/qdm12/gosplash/actions/workflows/ci.yml)
 
+![Last release](https://img.shields.io/github/release/qdm12/gosplash?label=Last%20release)
+![GitHub last release date](https://img.shields.io/github/release-date/qdm12/gosplash?label=Last%20release%20date)
 ![Commits since release](https://img.shields.io/github/commits-since/qdm12/gosplash/latest?sort=semver)
-[![GitHub last commit](https://img.shields.io/github/last-commit/qdm12/gosplash.svg)](https://github.com/qdm12/gosplash/commits)
+
+[![GitHub last commit](https://img.shields.io/github/last-commit/qdm12/gosplash.svg)](https://github.com/qdm12/gosplash/commits/main)
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/y/qdm12/gosplash.svg)](https://github.com/qdm12/gosplash/graphs/contributors)
+[![GitHub closed PRs](https://img.shields.io/github/issues-pr-closed/qdm12/gosplash.svg)](https://github.com/qdm12/gosplash/pulls?q=is%3Apr+is%3Aclosed)
+[![GitHub issues](https://img.shields.io/github/issues/qdm12/gosplash.svg)](https://github.com/qdm12/gosplash/issues)
+[![GitHub closed issues](https://img.shields.io/github/issues-closed/qdm12/gosplash.svg)](https://github.com/qdm12/gosplash/issues?q=is%3Aissue+is%3Aclosed)
 
 [![Lines of code](https://img.shields.io/tokei/lines/github/qdm12/gosplash)](https://github.com/qdm12/gosplash)
+![Code size](https://img.shields.io/github/languages/code-size/qdm12/gosplash)
+![GitHub repo size](https://img.shields.io/github/repo-size/qdm12/gosplash)
+![Go version](https://img.shields.io/github/go-mod/go-version/qdm12/gosplash)
+
+[![MIT](https://img.shields.io/github/license/qdm12/gosplash)](https://github.com/qdm12/gosplash/master/LICENSE)
+![Visitors count](https://visitor-badge.laobi.icu/badge?page_id=gosplash.readme)
 
 ```log
 ==================================================
@@ -118,24 +130,3 @@ func main() {
   - Sponsor me on [github.com/sponsors/qdm12](https://github.com/sponsors/qdm12)
   - Donate to [paypal.me/qmcgaw](https://www.paypal.me/qmcgaw)
   - Drop me [an email](mailto:quentin.mcgaw@gmail.com)
-
-## Metadata
-
-[![MIT](https://img.shields.io/github/license/qdm12/gosplash)](https://github.com/qdm12/gosplash/main/LICENSE)
-
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/y/qdm12/gosplash.svg)](https://github.com/qdm12/gosplash/commits)
-[![GitHub closed PRs](https://img.shields.io/github/issues-pr-closed/qdm12/gosplash.svg)](https://github.com/qdm12/gosplash/pulls?q=is%3Apr+is%3Aclosed)
-
-[![GitHub issues](https://img.shields.io/github/issues/qdm12/gosplash.svg)](https://github.com/qdm12/gosplash/issues)
-[![GitHub closed issues](https://img.shields.io/github/issues-closed/qdm12/gosplash.svg)](https://github.com/qdm12/gosplash/issues?q=is%3Aissue+is%3Aclosed)
-
-![Visitors count](https://visitor-badge.laobi.icu/badge?page_id=gosplash.readme)
-![GitHub stars](https://img.shields.io/github/stars/qdm12/gosplash?style=social)
-![GitHub watchers](https://img.shields.io/github/watchers/qdm12/gosplash?style=social)
-![Contributors](https://img.shields.io/github/contributors/qdm12/gosplash)
-![GitHub forks](https://img.shields.io/github/forks/qdm12/gosplash?style=social)
-
-![Code size](https://img.shields.io/github/languages/code-size/qdm12/gosplash)
-![GitHub repo size](https://img.shields.io/github/repo-size/qdm12/gosplash)
-
-![Go version](https://img.shields.io/github/go-mod/go-version/qdm12/gosplash)
