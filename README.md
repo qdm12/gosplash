@@ -121,6 +121,10 @@ func main() {
 }
 ```
 
+## Ports
+
+- [nodesplash](https://github.com/codetheweb/nodesplash): a TypeScript / Node.js port by [codetheweb](https://github.com/codetheweb)
+
 ## Quick links
 
 - Problem or suggestion?
