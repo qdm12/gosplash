@@ -121,10 +121,6 @@ func main() {
 }
 ```
 
-## Ports
-
-- [nodesplash](https://github.com/codetheweb/nodesplash): a TypeScript / Node.js port by [codetheweb](https://github.com/codetheweb)
-
 ## Quick links
 
 - Problem or suggestion?
@@ -134,3 +130,7 @@ func main() {
   - Sponsor me on [github.com/sponsors/qdm12](https://github.com/sponsors/qdm12)
   - Donate to [paypal.me/qmcgaw](https://www.paypal.me/qmcgaw)
   - Drop me [an email](mailto:quentin.mcgaw@gmail.com)
+
+## Ports
+
+- [nodesplash](https://github.com/codetheweb/nodesplash): a TypeScript / Node.js port by [codetheweb](https://github.com/codetheweb)
