@@ -42,6 +42,6 @@ func main() {
 
 // 📣 new feature 🎉
 
-// 🔧 Need help? ☕ Discussion? https://github.com/qdm12/gosplash/discussions/new
-// 🐛 Bug? ✨ New feature? https://github.com/qdm12/gosplash/issues/new
+// 🔧 Need help? ☕ Discussion? https://github.com/qdm12/gosplash/discussions/new/choose
+// 🐛 Bug? ✨ New feature? https://github.com/qdm12/gosplash/issues/new/choose
 // 💰 Help me? https://www.paypal.me/qmcgaw https://github.com/sponsors/qdm12
