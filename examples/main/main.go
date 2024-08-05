@@ -12,6 +12,7 @@ var (
 	version = "v0.1.0"
 	commit  = "c892ef2"
 	date    = "2021-07-14"
+	builtBy = ""
 )
 
 func main() {
@@ -21,6 +22,7 @@ func main() {
 		Version:       version,
 		Commit:        commit,
 		Created:       date,
+		BuiltBy:       builtBy,
 		Announcement:  "new feature 🎉",
 		PaypalUser:    "qmcgaw",
 		GithubSponsor: "qdm12",

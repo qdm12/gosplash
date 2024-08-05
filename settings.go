@@ -20,6 +20,7 @@ type Settings struct { //nolint:maligned
 	Version      string // defaults to "unknown"
 	Commit       string // defaults to "unknown"
 	Created      string // defaults to "unknown date"
+	BuiltBy      string // optional
 	Announcement string
 	AnnounceExp  time.Time // leave to zero value to disable expiration
 
