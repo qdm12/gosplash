@@ -67,7 +67,7 @@ func Test_MakeLines(t *testing.T) { //nolint:tparallel
 		},
 	}
 
-	for name, testCase := range testCases {
+	for name, testCase := range testCases { //nolint:paralleltest
 		t.Run(name, func(t *testing.T) {
 			timeNow = func() time.Time {
 				return testCase.now
