@@ -65,7 +65,7 @@ Running version v1.1.1 built on 2021-07-14 (commit c892ef2)
       // Program information
       Version      string // defaults to "unknown"
       Commit       string // defaults to "unknown"
-      BuildDate    string // defaults to "unknown date"
+      Created      string // defaults to "unknown date"
       Announcement string
       AnnounceExp  time.Time // leave to zero value to disable expiration
 
@@ -98,9 +98,9 @@ import (
 
 var (
     // should be set by your CI using -ldflags
-    version   = "v0.1.0"
-    commit    = "c892ef2"
-    buildDate = "2021-07-14"
+    version = "v0.1.0"
+    commit  = "c892ef2"
+    date    = "2021-07-14"
 )
 
 func main() {
@@ -109,7 +109,7 @@ func main() {
         Repository:    "gosplash",
         Version:       version,
         Commit:        commit,
-        BuildDate:     buildDate,
+        Created:       date,
         Announcement:  "new feature 🎉",
         PaypalUser:    "qmcgaw",
         GithubSponsor: "qdm12",

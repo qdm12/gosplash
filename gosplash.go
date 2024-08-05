@@ -19,7 +19,7 @@ func MakeLines(settings Settings) (lines []string) {
 	titleLines := title.MakeLines(settings.Separator, settings.LineLength,
 		settings.Repository, settings.MadeByPrefix, settings.Authors)
 	versionString := "Running version " + settings.Version +
-		" built on " + settings.BuildDate + " (commit " + settings.Commit + ")"
+		" built on " + settings.Created + " (commit " + settings.Commit + ")"
 	announcementLines := annoucement.MakeLines(settings.Announcement, now, settings.AnnounceExp)
 	linksLines := links.MakeLines(settings.RootURL, settings.User, settings.Repository,
 		settings.Emails, settings.PaypalUser, settings.GithubSponsor)

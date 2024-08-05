@@ -39,7 +39,7 @@ func Test_MakeLines(t *testing.T) { //nolint:tparallel
 				Emails:        []string{"quentin.mcgaw@gmail.com"},
 				Version:       "v1.1.1",
 				Commit:        "c892ef2",
-				BuildDate:     "2021-07-14",
+				Created:       "2021-07-14",
 				Announcement:  "hello world",
 				AnnounceExp:   time.Unix(someUnixAfter, 0),
 				PaypalUser:    "qmcgaw",

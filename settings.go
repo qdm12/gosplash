@@ -19,7 +19,7 @@ type Settings struct { //nolint:maligned
 	// Program information
 	Version      string // defaults to "unknown"
 	Commit       string // defaults to "unknown"
-	BuildDate    string // defaults to "unknown date"
+	Created      string // defaults to "unknown date"
 	Announcement string
 	AnnounceExp  time.Time // leave to zero value to disable expiration
 
@@ -57,7 +57,7 @@ func (s *Settings) setDefaults() {
 		s.Commit = "unknown"
 	}
 
-	if s.BuildDate == "" {
-		s.BuildDate = "unknown date"
+	if s.Created == "" {
+		s.Created = "unknown date"
 	}
 }

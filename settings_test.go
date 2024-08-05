@@ -21,7 +21,7 @@ func Test_Settings_setDefaults(t *testing.T) {
 				MadeByPrefix: "Made with ❤️  by ",
 				Version:      "unknown",
 				Commit:       "unknown",
-				BuildDate:    "unknown date",
+				Created:      "unknown date",
 			},
 		},
 		"default author to user": {
@@ -37,7 +37,7 @@ func Test_Settings_setDefaults(t *testing.T) {
 				MadeByPrefix: "Made with ❤️  by ",
 				Version:      "unknown",
 				Commit:       "unknown",
-				BuildDate:    "unknown date",
+				Created:      "unknown date",
 			},
 		},
 		"no defaults": {
@@ -48,7 +48,7 @@ func Test_Settings_setDefaults(t *testing.T) {
 				MadeByPrefix: "Made by ",
 				Version:      "v2",
 				Commit:       "8942342",
-				BuildDate:    "2021-07-14",
+				Created:      "2021-07-14",
 			},
 			expected: Settings{
 				LineLength:   10,
@@ -57,7 +57,7 @@ func Test_Settings_setDefaults(t *testing.T) {
 				MadeByPrefix: "Made by ",
 				Version:      "v2",
 				Commit:       "8942342",
-				BuildDate:    "2021-07-14",
+				Created:      "2021-07-14",
 			},
 		},
 	}
