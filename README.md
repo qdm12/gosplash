@@ -36,10 +36,8 @@ Running version v1.1.1 built on 2021-07-14 (commit c892ef2)
 
 📣 hello world
 
-🔧 Need help? https://github.com/qdm12/gosplash/discussions/new
-🐛 Bug? https://github.com/qdm12/gosplash/issues/new
-✨ New feature? https://github.com/qdm12/gosplash/issues/new
-☕ Discussion? https://github.com/qdm12/gosplash/discussions/new
+🔧 Need help? ☕ Discussion? https://github.com/qdm12/gosplash/discussions/new
+🐛 Bug? ✨ New feature? https://github.com/qdm12/gosplash/issues/new
 💻 Email? quentin.mcgaw@gmail.com
 💰 Help me? https://www.paypal.me/qmcgaw https://github.com/sponsors/qdm12
 ```

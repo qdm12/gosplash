@@ -9,10 +9,8 @@ func MakeLines(rootURL, user, repo string, emails []string,
 	rootURL = strings.TrimSuffix(rootURL, "/")
 	if rootURL != "" && user != "" && repo != "" {
 		repoURL := rootURL + "/" + user + "/" + repo
-		lines = append(lines, "🔧 Need help? "+repoURL+"/discussions/new")
-		lines = append(lines, "🐛 Bug? "+repoURL+"/issues/new")
-		lines = append(lines, "✨ New feature? "+repoURL+"/issues/new")
-		lines = append(lines, "☕ Discussion? "+repoURL+"/discussions/new")
+		lines = append(lines, "🔧 Need help? ☕ Discussion? "+repoURL+"/discussions/new")
+		lines = append(lines, "🐛 Bug? ✨ New feature? "+repoURL+"/issues/new")
 	}
 
 	if len(emails) > 0 {

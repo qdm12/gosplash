@@ -23,10 +23,8 @@ func Test_MakeLines(t *testing.T) {
 			user:    "qdm12",
 			repo:    "gosplash",
 			lines: []string{
-				"🔧 Need help? https://github.com/qdm12/gosplash/discussions/new",
-				"🐛 Bug? https://github.com/qdm12/gosplash/issues/new",
-				"✨ New feature? https://github.com/qdm12/gosplash/issues/new",
-				"☕ Discussion? https://github.com/qdm12/gosplash/discussions/new",
+				"🔧 Need help? ☕ Discussion? https://github.com/qdm12/gosplash/discussions/new",
+				"🐛 Bug? ✨ New feature? https://github.com/qdm12/gosplash/issues/new",
 			},
 		},
 		"emails": {
