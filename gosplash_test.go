@@ -1,6 +1,7 @@
 package gosplash
 
 import (
+	"strings"
 	"testing"
 	"time"
 
@@ -78,6 +79,17 @@ func Test_MakeLines(t *testing.T) { //nolint:tparallel
 			}()
 
 			lines := MakeLines(testCase.settings)
+
+			// Remove OS, arch and kernel form version string for testing
+			for i := range testCase.lines {
+				if !strings.HasPrefix(lines[i], "Running version ") {
+					continue
+				}
+				j := strings.LastIndex(lines[i], " on ")
+				if j != -1 {
+					lines[i] = lines[i][:j]
+				}
+			}
 
 			assert.Equal(t, testCase.lines, lines)
 		})

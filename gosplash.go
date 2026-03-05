@@ -5,6 +5,7 @@ import (
 
 	annoucement "github.com/qdm12/gosplash/internal/announcement"
 	"github.com/qdm12/gosplash/internal/links"
+	"github.com/qdm12/gosplash/internal/machine"
 	"github.com/qdm12/gosplash/internal/title"
 )
 
@@ -23,6 +24,11 @@ func MakeLines(settings Settings) (lines []string) {
 	if settings.BuiltBy != "" {
 		versionString += " by " + settings.BuiltBy
 	}
+	machineInfo, err := machine.GetInfo()
+	if err != nil {
+		machineInfo = "unknown (error: " + err.Error() + ")"
+	}
+	versionString += " on " + machineInfo
 	announcementLines := annoucement.MakeLines(settings.Announcement, now, settings.AnnounceExp)
 	linksLines := links.MakeLines(settings.RootURL, settings.User, settings.Repository,
 		settings.Emails, settings.PaypalUser, settings.GithubSponsor)
